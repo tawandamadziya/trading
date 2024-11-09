@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+#logo {
+  width: 30%;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -127,7 +131,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(130deg, #3CB043, #0f054c);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -273,7 +277,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #00204a;
+  color: #3CB043;
 }
 
 .slider_section .detail-box h1 {
@@ -449,7 +453,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a {
-  color: #00204a;
+  color: #3CB043;
   font-weight: 600;
 }
 
@@ -483,7 +487,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
+  background-color: #3CB043;
   color: #ffffff;
 }
 
@@ -547,7 +551,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #00204a;
+  border: 5px solid #3CB043;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,7 +566,7 @@ a:focus {
 .why_section .box .img-box img {
   width: 55px;
   height: auto;
-  fill: #00204a;
+  fill: #3CB043;
 }
 
 .why_section .box h5 {
@@ -602,7 +606,7 @@ a:focus {
 /*team section */
 .team_section {
   text-align: center;
-  background-color: #00204a;
+  background-color: #3CB043;
   color: #ffffff;
 }
 
@@ -623,8 +627,8 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   margin-top: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(to bottom, #002759, #002b64);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3CB043), to(#002b64));
+  background: linear-gradient(to bottom, #3CB043, #002b64);
 }
 
 .team_section .team_container .box .img-box {
@@ -741,7 +745,7 @@ a:focus {
 }
 
 .client_section .box .detail-box i {
-  color: #00204a;
+  color: #3CB043;
   margin-bottom: 10px;
 }
 
@@ -770,12 +774,12 @@ a:focus {
 
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: #00204a;
+  color: #3CB043;
 }
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
+  background-color: #3CB043;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -919,7 +923,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #00204a;
+  color: #3CB043;
   padding: 25px 0;
   margin: 0;
 }
