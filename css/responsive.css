@@ -8,7 +8,7 @@
   }
 
   .hero_area {
-    background: linear-gradient(130deg, #3CB043, #0f054c);
+    background: linear-gradient(130deg, #023725, #3CB043);
   }
 
   .hero_area .hero_bg_box {
@@ -38,6 +38,46 @@
     margin-bottom: 45px;
   }
 
+}
+@media (max-width: 992px) {
+  .contact_info h2 {
+    font-size: 1.8rem;
+  }
+
+  .map_container iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_info h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact_info,
+  .map_container {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact_info {
+    padding: 15px;
+  }
+
+  .contact_form button {
+    padding: 10px;
+  }
+
+  .map_container iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_info h2 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 576px) {

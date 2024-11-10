@@ -131,7 +131,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #3CB043, #0f054c);
+  background: linear-gradient(130deg, #023725, #3CB043);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -277,7 +277,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #3CB043;
+  color: #023725;
 }
 
 .slider_section .detail-box h1 {
@@ -453,7 +453,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a {
-  color: #3CB043;
+  color: #023725;
   font-weight: 600;
 }
 
@@ -487,7 +487,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #3CB043;
+  background-color: #023725;
   color: #ffffff;
 }
 
@@ -551,7 +551,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #3CB043;
+  border: 5px solid #023725;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,7 +566,7 @@ a:focus {
 .why_section .box .img-box img {
   width: 55px;
   height: auto;
-  fill: #3CB043;
+  fill: #023725;
 }
 
 .why_section .box h5 {
@@ -605,8 +605,9 @@ a:focus {
 
 /*team section */
 .team_section {
+  align-items: center;
   text-align: center;
-  background-color: #3CB043;
+  background-color: #023725;
   color: #ffffff;
 }
 
@@ -614,6 +615,10 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.team_container .row{
+  align-items: center;
 }
 
 .team_section .team_container {
@@ -627,8 +632,8 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   margin-top: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3CB043), to(#002b64));
-  background: linear-gradient(to bottom, #3CB043, #002b64);
+  background: -webkit-gradient(linear, left top, left bottom, from(#023725), to(#3CB043));
+  background: linear-gradient(to bottom, #023725, #3CB043);
 }
 
 .team_section .team_container .box .img-box {
@@ -679,6 +684,100 @@ a:focus {
 }
 
 /*team section end*/
+
+/*contacts section*/
+.contact_section {
+  padding: 60px 20px;
+  background: linear-gradient(130deg, #023725, #3CB043);
+  color: #ffffff;
+}
+
+.cont-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.contact_info {
+  flex: 1;
+  min-width: 350px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.contact_info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.contact_info p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_form input,
+.contact_form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(60, 176, 67, 0.3);
+}
+
+.contact_form button {
+  padding: 12px;
+  background: #ffffff;
+  color: #3CB043;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contact_form button:hover {
+  background: #3CB043;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.map_container {
+  flex: 2;
+  min-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.map_container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/*contacts section*/
+
+
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;
@@ -745,7 +844,7 @@ a:focus {
 }
 
 .client_section .box .detail-box i {
-  color: #3CB043;
+  color: #023725;
   margin-bottom: 10px;
 }
 
@@ -774,12 +873,12 @@ a:focus {
 
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: #3CB043;
+  color: #023725;
 }
 
 /* client section end */
 .info_section {
-  background-color: #3CB043;
+  background-color: #023725;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -923,7 +1022,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #3CB043;
+  color: #023725;
   padding: 25px 0;
   margin: 0;
 }
