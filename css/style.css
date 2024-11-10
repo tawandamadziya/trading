@@ -692,6 +692,17 @@ a:focus {
   color: #ffffff;
 }
 
+.team_section .team_container .row {
+  display: flex;
+  justify-content: center; /* Centers the child items horizontally */
+  flex-wrap: wrap; /* Allows wrapping for responsive layout */
+  gap: 20px; /* Adds space between the boxes */
+}
+
+.team_section .box {
+  margin: 15px 0; /* Adds vertical space between rows for better spacing */
+}
+
 .cont-container {
   display: flex;
   flex-wrap: wrap;
