@@ -30,7 +30,15 @@
     margin: 5px 0;
   }
 
-
+  .team_section .team_container .box .social_box {
+    padding: 10px 130px 20px 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 @media (max-width: 768px) {
