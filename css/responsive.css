@@ -133,7 +133,7 @@
   }
 
   .map_container iframe {
-    height: 200px; /* Smaller map for compact screens */
+    height: 150px; /* Smaller map for compact screens */
   }
 }
 
