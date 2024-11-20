@@ -785,6 +785,44 @@ a:focus {
   height: 100%;
   border: none;
 }
+.booking_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking_form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.booking_form input:focus {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(60, 176, 67, 0.3);
+}
+
+.booking_form button {
+  padding: 12px;
+  background: #ffffff;
+  color: #3CB043;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.booking_form button:hover {
+  background: #3CB043;
+  color: #ffffff;
+  transform: scale(1.05);
+}
 
 /*contacts section*/
 
