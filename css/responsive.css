@@ -99,12 +99,12 @@
 
 @media (max-width: 480px) {
   .contact_section {
-    padding: 30px 10px;
+    padding: 30px 20px;
   }
 
   .cont-container {
     gap: 10px; /* Reduces spacing between elements */
-    width: 90%; /* Full width on smaller screens */
+    width: 100%; /* Full width on smaller screens */
   }
 
   .contact_info {
