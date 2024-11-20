@@ -802,18 +802,6 @@ a:focus {
   border: none;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .cont-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact_info,
-  .map_container {
-    max-width: 100%;
-  }
-}
 
 
 
