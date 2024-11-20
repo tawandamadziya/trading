@@ -115,6 +115,7 @@
 
   .cont-container {
     gap: 10px; /* Reduces spacing between elements */
+    width: 200px;
   }
 
   .contact_info {
@@ -133,7 +134,7 @@
   }
 
   .map_container iframe {
-    height: 150px; /* Smaller map for compact screens */
+    height: 200px; /* Smaller map for compact screens */
   }
 }
 
