@@ -104,28 +104,39 @@
 
   .cont-container {
     gap: 15px; /* Reduces spacing between elements */
-    width: 100%; /* Full width on smaller screens */
+    width: 90%; /* Full width on smaller screens */
+    max-width: 600px; /* Optional: Max width for the container, to avoid it stretching too much on larger screens */
+    padding: 10px 50px; /* Padding on both sides */
+    margin: 0 auto; /* Centers the container horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width */
   }
 
   .contact_info {
-    padding: 15px;
+    padding: 15px; /* Ensure consistent padding */
   }
 
   .booking_form input,
   .booking_form textarea {
-    font-size: 0.9rem;
-    padding: 8px; /* Smaller padding for touch screens */
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+    padding: 8px; /* Smaller padding for better fit on touch screens */
+    width: 100%; /* Ensures the inputs are full-width and fit nicely */
+    box-sizing: border-box; /* Ensures padding is accounted for in total width */
   }
 
   .booking_form button {
-    font-size: 0.9rem;
-    padding: 8px 12px;
+    font-size: 0.9rem; /* Adjusted button font size */
+    padding: 8px 12px; /* Adjusted padding */
+    width: 100%; /* Ensures the button is full-width and easier to tap */
+    box-sizing: border-box; /* Ensures padding is included in total width */
   }
 
   .map_container iframe {
     height: 200px; /* Smaller map for compact screens */
+    width: 100%; /* Ensures map fits within its container */
+    border: none; /* Removes the default iframe border */
   }
 }
+
 
 @media (max-width: 420px) {
   .service_section .box {
