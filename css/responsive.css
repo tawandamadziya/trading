@@ -58,13 +58,39 @@
 }
 
 @media (max-width: 768px) {
-  .contact_info h2 {
-    font-size: 1.6rem;
+  .section_heading {
+    font-size: 2rem;
   }
 
-  .contact_info,
-  .map_container {
-    min-width: 100%;
+  .sub_heading {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .contact_info {
+    padding: 15px;
+  }
+
+  .booking_form {
+    gap: 15px;
+  }
+
+  .form_group {
+    flex-direction: column;
+  }
+
+  .booking_form input,
+  .booking_form textarea {
+    width: 100%;
+  }
+
+  .booking_form button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .map_container iframe {
+    height: 250px;
   }
 }
 
@@ -83,8 +109,39 @@
 }
 
 @media (max-width: 480px) {
-  .contact_info h2 {
-    font-size: 1.4rem;
+  .section_heading {
+    font-size: 1.8rem;
+  }
+
+  .sub_heading {
+    font-size: 0.9rem;
+  }
+
+  .contact_info {
+    padding: 15px;
+  }
+
+  .form_heading {
+    font-size: 1.3rem;
+  }
+
+  .booking_form {
+    gap: 10px;
+  }
+
+  .booking_form input,
+  .booking_form textarea {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .booking_form button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .map_container iframe {
+    height: 250px;
   }
 }
 
