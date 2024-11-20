@@ -98,12 +98,12 @@
 }
 
 @media (max-width: 480px) {
-  .contact_section {
-    padding: 10px 30px;
-  }
+  /* .contact_section {
+    padding: 10px 50px;
+  } */
 
   .cont-container {
-    gap: 10px; /* Reduces spacing between elements */
+    gap: 15px; /* Reduces spacing between elements */
     width: 100%; /* Full width on smaller screens */
   }
 
