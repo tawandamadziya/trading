@@ -109,39 +109,31 @@
 }
 
 @media (max-width: 480px) {
-  .section_heading {
-    font-size: 1.8rem;
+  .contact_section {
+    padding: 30px 10px;
   }
 
-  .sub_heading {
-    font-size: 0.9rem;
+  .cont-container {
+    gap: 10px; /* Reduces spacing between elements */
   }
 
   .contact_info {
     padding: 15px;
   }
 
-  .form_heading {
-    font-size: 1.3rem;
-  }
-
-  .booking_form {
-    gap: 10px;
-  }
-
   .booking_form input,
   .booking_form textarea {
     font-size: 0.9rem;
-    padding: 10px;
+    padding: 8px; /* Smaller padding for touch screens */
   }
 
   .booking_form button {
     font-size: 0.9rem;
-    padding: 10px;
+    padding: 8px 12px;
   }
 
   .map_container iframe {
-    height: 250px;
+    height: 200px; /* Smaller map for compact screens */
   }
 }
 
