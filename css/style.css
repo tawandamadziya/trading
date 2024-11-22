@@ -89,6 +89,7 @@ a:focus {
 
 /*header section*/
 .hero_area {
+  background: linear-gradient(130deg, #023725, #3CB043);
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
