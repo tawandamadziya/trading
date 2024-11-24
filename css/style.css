@@ -755,6 +755,16 @@ a:focus {
   gap: 15px;
 }
 
+.form_group input[type="text"],
+.form_group input[type="date"],
+.form_group input[type="time"] {
+  flex: 1 1 calc(50% - 16px); /* Make inputs 50% wide minus the gap */
+  min-width: 100px; /* Prevent inputs from becoming too narrow */
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
 .booking_form input,
 .booking_form textarea {
   flex: 1;
