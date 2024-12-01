@@ -48,6 +48,36 @@
 }
 
 @media (max-width: 768px) {
+  .accountant_section {
+    padding: 50px 20px;
+  }
+
+  .accountant_card {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .icon_circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon_circle i {
+    font-size: 32px;
+  }
+
+  .accountant_name {
+    font-size: 24px;
+  }
+
+  .card_inner p {
+    font-size: 16px;
+  }
+
+  .note {
+    font-size: 14px;
+  }
+  
   .section_heading {
     font-size: 2rem;
   }
@@ -100,9 +130,30 @@
 }
 
 @media (max-width: 480px) {
-  /* .contact_section {
-    padding: 10px 50px;
-  } */
+  .accountant_card {
+    padding: 15px;
+  }
+
+  .icon_circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon_circle i {
+    font-size: 24px;
+  }
+
+  .accountant_name {
+    font-size: 20px;
+  }
+
+  .card_inner p {
+    font-size: 14px;
+  }
+
+  .note {
+    font-size: 12px;
+  }
 
   .cont-container {
     gap: 15px; /* Reduces spacing between elements */
