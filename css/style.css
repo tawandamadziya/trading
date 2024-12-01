@@ -763,6 +763,77 @@ a:focus {
   gap: 15px;
 }
 
+.accountant_section {
+  padding: 70px 0;
+  background: linear-gradient(to bottom right, rgba(34, 193, 195, 0.1), rgba(253, 187, 45, 0.1));
+  backdrop-filter: blur(10px);
+}
+
+.heading_center h2 span {
+  color: #4CAF50;
+}
+
+.accountant_card {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(130deg, #023725, #3cb043);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.3s ease;
+}
+
+.accountant_card:hover {
+  transform: scale(1.05);
+}
+
+.card_inner {
+  text-align: center;
+  color: #fff;
+}
+
+.icon_circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #4CAF50, #81C784);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon_circle i {
+  font-size: 40px;
+  color: white;
+}
+
+.accountant_name {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.card_inner p {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.card_inner p i {
+  margin-right: 10px;
+  color: #81C784;
+}
+
+.note {
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .form_group input[type="text"],
 .form_group input[type="date"],
 .form_group input[type="time"] {
