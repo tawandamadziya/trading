@@ -95,14 +95,25 @@
         <h3 class="form_heading">Booking Details</h3>
         <form class="booking_form">
           <div class="form_group">
-            <input type="text" name="first_name" placeholder="First Name" required>
-            <input type="text" name="last_name" placeholder="Last Name" required>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter First Name" required>
           </div>
           <div class="form_group">
-            <input type="date" name="date" required>
-            <input type="time" name="time" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter Last Name" required>
           </div>
-          <textarea name="notes" placeholder="Additional Notes (Optional)" rows="4"></textarea>
+          <div class="form_group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form_group">
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+          <div class="form_group">
+            <label for="notes">Additional Notes (Optional)</label>
+            <textarea id="notes" name="notes" placeholder="Additional Notes (Optional)" rows="4"></textarea>
+          </div>
           <button type="submit">Book Meeting</button>
         </form>
       </div>
@@ -116,6 +127,30 @@
       </div>
     </div>
   </section>
+
+<!-- Accountant Details Section -->
+<section class="accountant_section">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2 class="section_heading">Make your payment <span>Today!</span></h2>
+      <p>Please reach out to our accountant for payment instructions.</p>
+    </div>
+
+    <div class="accountant_card">
+      <div class="card_inner">
+        <div class="icon_circle">
+          <i class="fa fa-user-tie"></i>
+        </div>
+        <h3 class="accountant_name">Emmerson Brett McCracken</h3>
+        <p><i class="fa fa-phone"></i> <strong>Phone:</strong> +27 76 330 3812</p>
+        <p><i class="fa fa-envelope"></i> <strong>Email:</strong> Brett.springforest@gmail.com</p>
+        <p class="note"><i class="fa fa-info-circle"></i> Contact Mr McCracken for unique payment references and banking instructions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   
   
  <!-- team section -->
@@ -325,7 +360,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
-
 </body>
 
 </html>

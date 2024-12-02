@@ -1,6 +1,8 @@
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -8,7 +10,7 @@
   }
 
   .hero_area {
-    background: linear-gradient(130deg, #023725, #3CB043);
+    background: linear-gradient(130deg, #023725, #3cb043);
   }
 
   .hero_area .hero_bg_box {
@@ -46,6 +48,36 @@
 }
 
 @media (max-width: 768px) {
+  .accountant_section {
+    padding: 50px 20px;
+  }
+
+  .accountant_card {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .icon_circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon_circle i {
+    font-size: 32px;
+  }
+
+  .accountant_name {
+    font-size: 24px;
+  }
+
+  .card_inner p {
+    font-size: 16px;
+  }
+
+  .note {
+    font-size: 14px;
+  }
+  
   .section_heading {
     font-size: 2rem;
   }
@@ -98,9 +130,30 @@
 }
 
 @media (max-width: 480px) {
-  /* .contact_section {
-    padding: 10px 50px;
-  } */
+  .accountant_card {
+    padding: 15px;
+  }
+
+  .icon_circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon_circle i {
+    font-size: 24px;
+  }
+
+  .accountant_name {
+    font-size: 20px;
+  }
+
+  .card_inner p {
+    font-size: 14px;
+  }
+
+  .note {
+    font-size: 12px;
+  }
 
   .cont-container {
     gap: 15px; /* Reduces spacing between elements */
@@ -137,21 +190,20 @@
   }
 }
 
-
 @media (max-width: 420px) {
   .service_section .box {
     flex-direction: column;
   }
   .slider_section {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative;
     padding: 45px 0 145px 0;
     top: 0;
@@ -160,6 +212,22 @@
   .service_section .box .img-box {
     justify-content: flex-start;
     margin-bottom: 15px;
+  }
+
+  .form_group input[type="text"],
+  .form_group input[type="date"],
+  .form_group input[type="time"] {
+    flex: 1 1 calc(50% - 16px); /* Make inputs 50% wide minus the gap */
+    min-width: 300px; /* Prevent inputs from becoming too narrow */
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    input::placeholder,
+    textarea::placeholder {
+      color: #aaa; /* Adjust the color to be visible */
+      font-size: 16px; /* Match the font size of the input */
+      font-style: italic; /* Optional styling */
+    }
   }
 }
 
