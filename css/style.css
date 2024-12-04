@@ -795,8 +795,8 @@ a:focus {
 }
 
 .icon_circle {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 20px;
   border-radius: 50%;
   background: linear-gradient(145deg, #4CAF50, #81C784);
@@ -804,6 +804,12 @@ a:focus {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accountant{
+  width: 22%;
+  border-radius: 100%;
+  border: 5px solid #ffffff;
 }
 
 .icon_circle i {
