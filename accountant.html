@@ -35,33 +35,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
-      .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: stretch;
-    justify-content: space-between;
-  }
-
-  .accountant-card, 
-  .form-section {
-    flex: 1;
-    min-width: 300px;
-    padding: 20px;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-
-  .accountant-card img {
-    max-width: 100%;
-    border-radius: 12px;
-  }
-
-  .accountant-details {
-    margin-top: 20px;
-  }
-
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+  
+    .accountant-card,
+    .form-section {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .accountant-card img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+  
+    .accountant-details {
+      margin-top: 20px;
+    }
+  
     .section {
       margin: 40px auto;
       max-width: 900px;
@@ -71,14 +71,14 @@
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
-
+  
     .section h1 {
       text-align: center;
-      font-size: 42px;
+      font-size: 36px;
       color: #00791e;
       margin-bottom: 20px;
     }
-
+  
     .accountant-section {
       display: flex;
       flex-wrap: wrap;
@@ -86,45 +86,45 @@
       align-items: center;
       justify-content: space-between;
     }
-
+  
     .accountant-section img {
       width: 200px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-
+  
     .accountant-details {
       flex: 1;
     }
-
+  
     .accountant-details p {
       margin: 10px 0;
       font-size: 18px;
       color: #333;
     }
-
+  
     .accountant-details p i {
       color: #007932;
       margin-right: 10px;
     }
-
+  
     .form-section {
       background: rgba(255, 255, 255, 0.9);
       padding: 30px;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-
+  
     .form-group {
       margin-bottom: 20px;
     }
-
+  
     .form-group label {
       display: block;
       margin-bottom: 8px;
       font-weight: bold;
     }
-
+  
     .form-group input,
     .form-group textarea {
       width: 100%;
@@ -134,11 +134,11 @@
       outline: none;
       font-size: 16px;
     }
-
+  
     .form-group textarea {
       resize: none;
     }
-
+  
     .btn {
       display: block;
       width: 100%;
@@ -152,18 +152,75 @@
       text-align: center;
       transition: 0.3s ease;
     }
-
+  
     .btn:hover {
       background-color: #004d40;
     }
-
+  
     footer {
       background: #004d40;
       color: white;
       text-align: center;
       padding: 20px 0;
     }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      .section {
+        padding: 20px;
+      }
+  
+      .section h1 {
+        font-size: 28px;
+      }
+  
+      .accountant-section img {
+        width: 150px;
+      }
+
+      #sized{
+        font-size: 15px;
+      }
+  
+      .form-section {
+        padding: 20px;
+      }
+    }
+  
+    @media (max-width: 576px) {
+      .flex-container {
+        flex-direction: column;
+        gap: 10px;
+      }
+  
+      .accountant-card,
+      .form-section {
+        min-width: 100%;
+      }
+  
+      .section {
+        padding: 20px;
+      }
+  
+      .section h1 {
+        font-size: 24px;
+      }
+  
+      .accountant-section img {
+        width: 100px;
+      }
+  
+      .form-group input,
+      .form-group textarea {
+        font-size: 14px;
+      }
+  
+      .btn {
+        font-size: 16px;
+      }
+    }
   </style>
+  
 </head>
 
 <body>
@@ -219,9 +276,9 @@
                 <img src="images/accountant.jpg" alt="Emmerson Brett McCracken">
                 <div class="accountant-details">
                   <p><i class="fa fa-user"></i> <strong>Emmerson Brett McCracken</strong></p>
-                  <p><i class="fa fa-phone"></i> Phone: +27 76 330 3812</p>
-                  <p><i class="fa fa-envelope"></i> Email: brett.springforest@gmail.com</p>
-                  <p>Contact us for unique payment references and banking instructions.</p>
+                  <p id="sized"><i class="fa fa-phone"></i> Phone: +27 76 330 3812</p>
+                  <p id="sized"><i class="fa fa-envelope"></i> Email: brett.springforest@gmail.com</p>
+                  <p id="sized">Contact us for unique payment references and banking instructions.</p>
                 </div>
               </div>
           
