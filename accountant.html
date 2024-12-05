@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/logo.png" type="">
+
+  <title> THE TRADE CENTER</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+  
+    .accountant-card,
+    .form-section {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .accountant-card img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+  
+    .accountant-details {
+      margin-top: 20px;
+    }
+  
+    .section {
+      margin: 40px auto;
+      max-width: 900px;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  
+    .section h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #00791e;
+      margin-bottom: 20px;
+    }
+  
+    .accountant-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .accountant-section img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .accountant-details {
+      flex: 1;
+    }
+  
+    .accountant-details p {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #333;
+    }
+  
+    .accountant-details p i {
+      color: #007932;
+      margin-right: 10px;
+    }
+  
+    .form-section {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+    }
+  
+    .form-group textarea {
+      resize: none;
+    }
+  
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(130deg, #023725, #3cb043);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+  
+    .btn:hover {
+      background-color: #004d40;
+    }
+  
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      .section {
+        padding: 20px;
+      }
+  
+      .section h1 {
+        font-size: 28px;
+      }
+  
+      .accountant-section img {
+        width: 150px;
+      }
+
+      #sized{
+        font-size: 15px;
+      }
+  
+      .form-section {
+        padding: 20px;
+      }
+    }
+  
+    @media (max-width: 576px) {
+      .flex-container {
+        flex-direction: column;
+        gap: 10px;
+      }
+  
+      .accountant-card,
+      .form-section {
+        min-width: 100%;
+      }
+  
+      .section {
+        padding: 20px;
+      }
+  
+      .section h1 {
+        font-size: 24px;
+      }
+  
+      .accountant-section img {
+        width: 100px;
+      }
+  
+      .form-group input,
+      .form-group textarea {
+        font-size: 14px;
+      }
+  
+      .btn {
+        font-size: 16px;
+      }
+    }
+  </style>
+  
+</head>
+
+<body>
+
+    <div class="hero_area">  
+        <!-- header section strats -->
+        <header class="header_section">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="index.html">
+                <span>
+                 <img id="logo" src="images/logo.png" alt="">
+                </span>
+              </a>
+    
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""> </span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="why.html">Why Us</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="accountant.html">Appointments</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="team.html">Contact</a>
+                  </li>         
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        </div>
+        <!-- end header section -->
+
+        <section class="section">
+            <h1>Payment Information & Booking</h1>
+            <div class="flex-container">
+              <!-- Accountant Details -->
+              <div class="accountant-card">
+                <img src="images/accountant.jpg" alt="Emmerson Brett McCracken">
+                <div class="accountant-details">
+                  <p><i class="fa fa-user"></i> <strong>Emmerson Brett McCracken</strong></p>
+                  <p id="sized"><i class="fa fa-phone"></i> Phone: +27 76 330 3812</p>
+                  <p id="sized"><i class="fa fa-envelope"></i> Email: brett.springforest@gmail.com</p>
+                  <p id="sized">Contact us for unique payment references and banking instructions.</p>
+                </div>
+              </div>
+          
+              <!-- Booking Form -->
+              <form class="form-section">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                  <label for="time">Time of Appointments</label>
+                  <input type="time" id="time" required>
+                </div>
+                <div class="form-group">
+                  <label for="reason">Reason for Booking</label>
+                  <textarea id="reason" rows="4" placeholder="Briefly describe the reason for booking"></textarea>
+                </div>
+                <button type="submit" class="btn">Schedule Booking</button>
+              </form>
+            </div>
+          </section>
+          
+
+ <!-- info section -->
+
+ <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://maps.app.goo.gl/Lmfd7AzXG1Z5s4Cw6">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Pinelands, Cape Town
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  +27 69 994 0161
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="https://www.instagram.com/thetradecenter_/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/thetradecenter_/">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/thetradecenter_/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/thetradecenter_/">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>Feel free to contact us for trading sessions</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col"> 
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="service.html">
+                Services
+              </a>
+              <a class="" href="why.html">
+                Why Us
+              </a>
+              <a class="" href="team.html">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://mcafro.netlify.app/">Thelma</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
