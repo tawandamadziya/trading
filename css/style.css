@@ -628,6 +628,12 @@ a:focus {
   background-color: #007fa4;
 }
 
+#space{
+  width: 100%;
+  background-color: #027b33;
+  height: 60px;
+}
+
 /*team section */
 .team_section {
   align-items: center;
